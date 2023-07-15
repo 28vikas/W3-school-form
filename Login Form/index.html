@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2121ef6496.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="main">
+
+            <div class="login-btn"><button onclick="ShowPage()">Click here to Login</button></div>
+            <div class="overlay"></div>
+            <div class="form-section">
+                <form action="">
+                    <div class="userName">
+                        <label for="">Username</label>
+                       <div class="icon"><i class="fa-solid fa-user"></i><input  type="text" placeholder="Type your username" id="userInput" class="user"></div>
+                    </div>
+
+                    <div class="password">
+                        <label for="">Password</label>
+                        <div class="icon"><i class="fa-solid fa-lock"></i><input type="password" placeholder="Type your password" id="passwordIput" class="user"></div>
+                    </div>
+                    <input type="checkbox"> Remember me<br>
+                    <button>LOGIN</button>
+
+                    <button onclick="hidepage()">Cancel</button>
+                </form>
+            </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
