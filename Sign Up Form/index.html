@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>Modal Sign Up Form</h1>
+        <button class="Sign-btn" onclick="showForm()">Sign Up</button>
+
+        <div class="form-section">
+            <form action="">
+                <h3>Sign Up</h3>
+                <p>Please fill in this form to create an account.</p>
+
+                <div class="input-section">
+                    <label>Email</label>
+                    <input type="text" placeholder="Enter Email" class="allInput">
+                </div>
+
+                <div class="input-section">
+                    <label>Password</label>
+                    <input type="password" placeholder="Paasword" class="allInput">
+                </div>
+
+
+                <div class="input-section">
+                    <label>Repeat Password</label>
+                    <input type="password" placeholder="Repeat Paasword" class="allInput">
+                </div>
+
+                <input type="checkbox" name="" id=""> Remember me
+                <p>By creating an account you agree to our <a href="">Terms & Privacy.</a></p>
+
+                <div class="lower-btn">
+                    <button class="btn1">Cancel</button>
+                    <button class="btn2" onclick="hideform()">Sign Up</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

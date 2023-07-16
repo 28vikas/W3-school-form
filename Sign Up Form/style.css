@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+}
+
+body{
+
+}
+button{
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.Sign-btn{
+    background-color: #04AA6D;
+    padding: 10px 15px;
+    
+}
+
+.btnhide{
+    display: none;
+}
+
+p{
+    font-family: monospace;
+    font-weight: 700;
+    margin: 10px 0;
+}
+label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 25px;
+
+}
+
+
+.form-section{
+    background-color: aquamarine;
+    padding: 20px;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 70%;
+    transition: .7s ease-in-out;
+}
+
+.show{
+    top: 50%;
+}
+
+.allInput{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(242, 240, 240);
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+
+.btn1{
+    background-color: rgb(248, 35, 35);
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.btn2{
+    background-color: #04AA6D;
+    width: 50%;
+    padding: 15px 20px;
+
+} 
+
+.lower-btn{
+   width: 100%;
+   display: flex;
+}
