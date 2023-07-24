@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h3>Popup Form</h3>
+    <p>Click on the button at the bottom of this page to open the login form.</p>
+    <p>Note that the button and the form is fixed - they will always be positioned to the bottom of the browser window.
+    </p>
+
+
+    <div class="form-div">
+
+        <div class="form-container" id="myForm">
+            <h2>Login</h2>
+
+            <div class="email">
+                <label for="">Email</label>
+                <input type="text" placeholder="Enter Email">
+            </div>
+
+            <div class="Password">
+                <label for="">Password</label>
+                <input type="text" placeholder="Enter Password">
+            </div>
+
+            <button class="login">Login</button>
+            <button class="close" onclick="closeForm()" id="cls">Close Form</button>
+
+        </div>
+
+        <button class="open" onclick="openForm()" id="ops">Open Form</button>
+
+
+    </div>
+
+
+<script src="script.js"></script>r
+</body>
+
+</html>
