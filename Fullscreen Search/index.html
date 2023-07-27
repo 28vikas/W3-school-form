@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2121ef6496.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="main">
+        <h2>Fullscreen Search</h2>
+        <p>Click on the button to open the search box.</p>
+        <button onclick="openSearch()">Open Search Box</button>
+
+        <div class="overlay" id="hideoverlay">
+            <span id="icon" onclick="closeSearch()"><i class="fa-solid fa-xmark"></i></span>
+            <div class="searchbox">
+                <input type="text" placeholder="Search..">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
