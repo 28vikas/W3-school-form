@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    padding: 10px 15px;
+}
+
+
+button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    
+}
+
+p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
