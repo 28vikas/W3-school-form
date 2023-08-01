@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+.main{
+    padding: 10px;
+}
+
+
+input{
+    padding: 10px 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+button{
+    padding: 7px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+}
+
+p{
+    margin: 5px 0;
+}
